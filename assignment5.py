@@ -27,11 +27,6 @@ for i in range(5):
     extractor.append(list[z])
 
 print(extractor)
+extractor.reverse()
+print(extractor)
  
-z = 4
-reverser = []
-for i in range(5):
-    i = i + z
-    z = z - 2
-    reverser.append(extractor[i])
-print(reverser)
